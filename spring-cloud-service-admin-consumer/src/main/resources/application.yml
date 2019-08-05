@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-service-admin-consumer
+
+server:
+  port: 9503
+
+eureka:
+  client:
+    service-url:
+      defaultZone : http://localhost:9501/eureka

@@ -13,4 +13,7 @@ eureka:
     register-with-eureka: false
     # 由于注册中心的职责就是维护服务实例，他并不需要去检索服务，所以也设置为 false
     fetch-registry: false
+    # 客户端的默认地址
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
 

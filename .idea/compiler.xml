@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-service-admin" />
+        <module name="spring-cloud-service-admin-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-cloud-dependencies" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-service-admin" target="1.8" />
+      <module name="spring-cloud-service-admin-consumer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
