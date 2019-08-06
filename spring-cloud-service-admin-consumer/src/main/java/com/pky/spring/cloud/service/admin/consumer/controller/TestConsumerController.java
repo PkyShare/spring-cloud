@@ -8,13 +8,13 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping(value = "admin_consumer")
-public class ServiceAdminConsumerController {
+public class TestConsumerController {
 
     @Autowired
     private RestTemplate restTemplate;
 
     @GetMapping(value = "")
     public String testAdminConsumer() {
-        return restTemplate.getForObject("http://localhost:9502/admin", String.class);
+        return restTemplate.getForObject("http://admin-provider/admin", String.class);
     }
 }

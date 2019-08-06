@@ -38,7 +38,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.pky.spring.cloud.service.admin.consumer.ServiceAdminConsumerApplication</mainClass>
+                    <mainClass>com.pky.spring.cloud.service.admin.consumer.AdminConsumerApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

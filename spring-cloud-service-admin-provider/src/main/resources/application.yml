@@ -1,9 +1,9 @@
 spring:
   application:
-    name: admin-consumer
-
+    name: admin-provider
+# 端口号
 server:
-  port: 9800
+  port: 9600
 
 eureka:
   client:

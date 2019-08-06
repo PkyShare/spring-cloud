@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(value = "admin")
-public class AdminController {
+public class TestProviderController {
 
     @Value("${server.port}")
     String port;
 
-    @PostMapping(value = "")
+    @GetMapping(value = "")
     public String adminTest(){
         return String.format("hello, I'm service admin from port :%s",port);
     }

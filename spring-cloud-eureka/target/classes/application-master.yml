@@ -1,0 +1,9 @@
+server:
+  port: 9501
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://pky:123@slaveone:9502/eureka/
+
+

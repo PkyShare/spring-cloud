@@ -10,10 +10,10 @@
         <relativePath>../spring-cloud-dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>spring-cloud-service-admin</artifactId>
+    <artifactId>spring-cloud-service-admin-provider</artifactId>
     <packaging>jar</packaging>
 
-    <name>spring-cloud-service-admin</name>
+    <name>spring-cloud-service-admin-provider</name>
 
     <dependencies>
         <!-- Spring Boot Begin -->
@@ -38,7 +38,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.pky.spring.cloud.service.admin.ServiceAdminApplication</mainClass>
+                    <mainClass>com.pky.spring.cloud.service.admin.AdminProviderApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

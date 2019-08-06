@@ -1,0 +1,6 @@
+server:
+  port: 9502
+eureka:
+  client:
+    service-url:
+      defaultZone: http://pky:123@master:9501/eureka/
