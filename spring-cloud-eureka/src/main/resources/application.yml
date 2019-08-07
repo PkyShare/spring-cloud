@@ -5,19 +5,16 @@ spring:
     user:
       name: pky
       password: 123
-  # 指定不同的环境
-  profiles:
-    active: master
 
 # 端口号
 server:
-  port: 9500
+  port: 9501
 
 eureka:
   # eureak实例定义
   instance:
     # 定义 Eureka 实例所在的主机名称
-    hostname: localhost
+    hostname: master
   client:
     # 由于该应用为注册中心，所以设置为 false，代表不向注册中心注册自己
     register-with-eureka: false
@@ -25,4 +22,4 @@ eureka:
     fetch-registry: false
     # 客户端注册到 eureka 的地址
     serviceUrl:
-      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@master:9501/eureka/,http://${spring.security.user.name}:${spring.security.user.password}@slaveone:9502/eureka/
+      defaultZone: http://pky:123@slaves:9502/eureka/

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-dependencies/spring-cloud-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-dependencies/spring-cloud-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-slaves/spring-cloud-eureka-slaves.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-slaves/spring-cloud-eureka-slaves.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-admin-consumer/spring-cloud-service-admin-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-service-admin-consumer/spring-cloud-service-admin-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-admin-provider/spring-cloud-service-admin-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-service-admin-provider/spring-cloud-service-admin-provider.iml" />
     </modules>
