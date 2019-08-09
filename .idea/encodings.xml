@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-slaves" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-service-admin-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-service-admin-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-web-admin-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-web-admin-hystrix-dashboard" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

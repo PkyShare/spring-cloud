@@ -1,0 +1,34 @@
+server:
+  port: 9701
+
+spring:
+  application:
+    name: admin-feign
+  security:
+    user:
+      name: pky
+      password: 123
+eureka:
+  client:
+    service-url:
+      defaultZone: http://pky:123@master:9501/eureka/,\
+                   http://pky:123@slaves:9502/eureka/
+
+
+# 日志
+logging:
+  level:
+    com:
+      pky:
+        spring:
+          cloud : DEBUG
+
+# 服务熔断
+feign:
+  hystrix:
+    enabled: true
+
+
+
+# 日志
+

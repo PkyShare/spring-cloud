@@ -3,9 +3,10 @@ spring:
     name: admin-consumer
 
 server:
-  port: 9800
+  port: 9602
 
 eureka:
   client:
     service-url:
-      defaultZone : http://pky:123@localhost:9500/eureka
+      defaultZone : http://pky:123@master:9501/eureka/,\
+                    http://pky:123@slaves:9502/eureka/

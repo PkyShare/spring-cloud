@@ -11,6 +11,8 @@
         <module name="spring-cloud-service-admin" />
         <module name="spring-cloud-service-admin-consumer" />
         <module name="spring-cloud-service-admin-provider" />
+        <module name="spring-cloud-web-admin-feign" />
+        <module name="spring-cloud-web-admin-hystrix-dashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +22,9 @@
       <module name="spring-cloud-service-admin" target="1.8" />
       <module name="spring-cloud-service-admin-consumer" target="1.8" />
       <module name="spring-cloud-service-admin-provider" target="1.8" />
+      <module name="spring-cloud-web-admin-feign" target="1.8" />
+      <module name="spring-cloud-web-admin-feign (1)" target="1.8" />
+      <module name="spring-cloud-web-admin-hystrix-dashboard" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

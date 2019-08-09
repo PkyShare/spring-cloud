@@ -8,6 +8,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient  // 表明当前服务是 eureka 的一个客户端
 public class AdminProviderApplication {
     public static void main(String[] args) {
-        SpringApplication.run(AdminProviderApplication.class);
+        SpringApplication.run(AdminProviderApplication.class, args);
     }
 }
