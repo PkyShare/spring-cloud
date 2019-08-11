@@ -4,10 +4,6 @@ server:
 spring:
   application:
     name: admin-feign
-  security:
-    user:
-      name: pky
-      password: 123
 eureka:
   client:
     service-url:

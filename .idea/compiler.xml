@@ -12,7 +12,6 @@
         <module name="spring-cloud-service-admin-consumer" />
         <module name="spring-cloud-service-admin-provider" />
         <module name="spring-cloud-web-admin-feign" />
-        <module name="spring-cloud-web-admin-hystrix-dashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
