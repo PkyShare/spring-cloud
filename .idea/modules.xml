@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-admin-consumer/spring-cloud-service-admin-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-service-admin-consumer/spring-cloud-service-admin-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-admin-provider/spring-cloud-service-admin-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-service-admin-provider/spring-cloud-service-admin-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/spring-cloud-web-admin-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-web-admin-feign/spring-cloud-web-admin-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
     </modules>
   </component>
 </project>

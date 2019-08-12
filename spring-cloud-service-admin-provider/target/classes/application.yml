@@ -4,7 +4,7 @@ spring:
 # 端口号
 server:
   port: 9601
-
+# 服务注册与发现
 eureka:
   client:
     service-url:
