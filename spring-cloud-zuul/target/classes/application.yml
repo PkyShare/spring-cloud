@@ -1,0 +1,27 @@
+server:
+  port: 9801
+  servlet:
+    context-path: /api/
+spring:
+  application:
+    name: zuul
+# 服务熔断
+feign:
+  hystrix:
+    enabled: true
+# 注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://pky:123@master:9501/eureka/,\
+                   http://pky:123@slaves:9502/eureka/
+# 网关
+zuul:
+  routes:
+    api-provider:
+      path: /provider/**
+      serviceId: admin-provider
+#      url: https://www.cartaichi.com
+    api-feign:
+      path: /consumer/**
+      serviceId: admin-feign
